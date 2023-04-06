@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+class exercicio4 {
+
+    public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+
+        Double n1;
+        Double n2;
+        Double n3;
+        Double n4;
+        Double somadetudo;
+        Double media;
+
+        System.out.println("nota 1");
+
+        n1 = teclado.nextDouble();
+
+        System.out.println("nota 2");
+
+        n2 = teclado.nextDouble();
+
+        System.out.println("nota 3");
+
+        n3 = teclado.nextDouble();
+
+        System.out.println("nota 4");
+
+        n4 = teclado.nextDouble();
+
+        somadetudo = n1 + n2 + n3 + n4;
+
+        media = somadetudo / 4;
+
+        System.out.println("Soma: " + somadetudo);
+
+        System.out.println("Media: " + media);
+    }
+
+}
